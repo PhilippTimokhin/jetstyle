@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+// === variables === //
+$generell-ff: 'IBM Plex Mono', monospace;
+$bg-bl: rgb(255, 255, 255);
+$bg-card: rgb(255, 255, 255);
+
+// === bookslist === //
+
+.books--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  min-height: 90vh;
+  justify-items: center;
+  justify-content: center;
+  background-color: $bg-bl;
+}
+
+.books__inner {
+  background-color: $bg-card;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  padding: 30px;
+  margin: 15px;
+  width: 35%;
+  border: 1px dotted black;
+  border-radius: 6px;
+  .inner__list {
+    list-style: none;
+    text-align: center;
+    .list__item {
+      line-height: 30px;
+      padding: 10px;
+      font-family: $generell-ff ;
+    }
+  }
+  .inner__buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-around;
+    .button__edit{
+      padding: 5px;
+      font-family: $generell-ff;
+      width: 200px;
+      transition: all .5s ease;
+      &:hover {
+        transform: scale(1.03); 
+        cursor: pointer;
+      }
+    }
+    .button__delete{
+      padding: 5px;
+      font-family: $generell-ff;
+      width: 200px;
+      transition: all .5s ease;
+      &:hover {
+        transform: scale(1.03);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// === booksform === //
+.adding--wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  height: 100vh;
+}
+
+.adding__form {
+  border: 1px dotted black;
+  border-radius: 6px;
+  padding: 50px;
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  .form__image {
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .form__name {
+    text-align: center;
+    font-family: $generell-ff;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  .form__label {
+    text-align: center;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-family: $generell-ff;
+  }
+  .form__button {
+    margin-top: 15px;
+    height: 40px;
+  }
+}
+
+//  ===searchbooks=== //
+
+.search--wrapper {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .search__input {
+    width: 50%;
+    height: 30px;
+    font-family: $generell-ff;
+    text-align: center;
+  }
+}
