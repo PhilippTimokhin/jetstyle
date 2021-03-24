@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/jetstyle/static/css/main.8c228d20.chunk.css",
+    "main.js": "/jetstyle/static/js/main.a7ebd413.chunk.js",
+    "main.js.map": "/jetstyle/static/js/main.a7ebd413.chunk.js.map",
+    "runtime-main.js": "/jetstyle/static/js/runtime-main.115cfea5.js",
+    "runtime-main.js.map": "/jetstyle/static/js/runtime-main.115cfea5.js.map",
+    "static/js/2.2d5850ba.chunk.js": "/jetstyle/static/js/2.2d5850ba.chunk.js",
+    "static/js/2.2d5850ba.chunk.js.map": "/jetstyle/static/js/2.2d5850ba.chunk.js.map",
+    "index.html": "/jetstyle/index.html",
+    "static/css/main.8c228d20.chunk.css.map": "/jetstyle/static/css/main.8c228d20.chunk.css.map",
+    "static/js/2.2d5850ba.chunk.js.LICENSE.txt": "/jetstyle/static/js/2.2d5850ba.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.115cfea5.js",
+    "static/js/2.2d5850ba.chunk.js",
+    "static/css/main.8c228d20.chunk.css",
+    "static/js/main.a7ebd413.chunk.js"
+  ]
+}
